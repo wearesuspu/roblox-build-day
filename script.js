@@ -1,0 +1,1 @@
+const form=document.querySelector('#signup-form');const output=document.querySelector('output');form.addEventListener('submit',e=>{e.preventDefault();const name=document.querySelector('#name').value.trim();output.textContent=`You're in, ${name}! Check your inbox for the starter kit.`;form.reset()});
